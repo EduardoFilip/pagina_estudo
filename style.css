@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 5vw;
+    color:rgb(39, 39, 39) ;
+    margin-bottom: 5%;
+}
+
+p {
+    font-size: 3vw;
+    color:rgb(45, 87, 104) ;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.div-full {
+    /* width: max-content; */
+    height: 200px;
+    justify-content: center;
+    display: flex;   
+    background-color:rgb(210, 222, 228) ;
+    border-radius: 40px ;
+}
+
+
+/* Formulário */
+
+.col-1 {
+    width: 50%;
+}
+
+.formu {
+    background-color: rgb(182, 182, 182);
+    border-radius: 30px;
+}
+
+label {
+	display: block;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+input, textarea {
+	padding:5px;
+    width: 95%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 1.6px;
+    border-color: black;
+    border-radius: 3px;
+}
+
+button{
+    width: 50%;
+
+}
+
+/* centralizar botao */
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ********* */
