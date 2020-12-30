@@ -5,7 +5,7 @@ body {
 h1 {
     font-size: 5vw;
     color:rgb(39, 39, 39) ;
-    margin-bottom: 5%;
+    margin: auto;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 
 .div-full {
     /* width: max-content; */
-    height: 200px;
+    height: 150px;
     justify-content: center;
     display: flex;   
     background-color:rgb(210, 222, 228) ;
@@ -80,10 +80,11 @@ button{
     font-size: 20px;
     font-weight: 700;
     color: dimgrey;
+    margin-bottom: 5%;
 }
 
 .msg-text {
-    height: 150px;
+    height: 100px;
 }
 
 /* ********* */
