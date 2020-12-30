@@ -1,4 +1,4 @@
-$(function(){
+$(function() {
 
     $(".place").each(function(){ /*o EACH diz que ele vai virar
     CADA campo que tenha a CLASE .PLACE e executar a funcao abaixo */
@@ -24,15 +24,6 @@ $(function(){
                     input.css("color","#ccc"); /*coloca a cor ccc no inpu*/
                     input.val(place); /* coloca o valor do title novamente*/
                 }
-            })
-    
-    });
-    
-    
-    
-    
-    
-    
-    
-    
+            });
+        });
     });
